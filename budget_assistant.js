@@ -13,3 +13,9 @@ console.log("Startup Name: " + startupName);
 console.log("Net Monthly Cash Flow: $" + netCashFlow);
 console.log("Current Balance: $" + currentBalance);
 console.log("Profitability Status: " + isProfitable);
+
+// ✅ Step 3B: Also Output to Web Page
+document.body.innerHTML += `<h2>🚀 Startup Name: ${startupName}</h2>`;
+document.body.innerHTML += `<p>💵 Net Monthly Cash Flow: $${netCashFlow}</p>`;
+document.body.innerHTML += `<p>💰 Current Balance: $${currentBalance}</p>`;
+document.body.innerHTML += `<p>📈 Profitability Status: ${isProfitable}</p>`;
