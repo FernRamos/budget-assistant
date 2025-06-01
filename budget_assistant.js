@@ -1,13 +1,13 @@
 // Step 1: Create and Initialize Variables
-let startupName = "North South Charters";
-let initialCapital = 35000;
+const startupName = "North South Charters";
+const initialCapital = 35000;
 let monthlyRevenue = 6000;
 let monthlyExpenses = 3500;
 
 // Step 2: Calculate Business Metrics
-let netCashFlow = monthlyRevenue - monthlyExpenses;
-let currentBalance = initialCapital + netCashFlow;
-let isProfitable = netCashFlow > 0;
+const netCashFlow = monthlyRevenue - monthlyExpenses;
+const currentBalance = initialCapital + netCashFlow;
+const isProfitable = netCashFlow > 0;
 
 // Step 3: Print to Console
 console.log("Startup Name: " + startupName);
