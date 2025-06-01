@@ -1,4 +1,4 @@
-let startupName = "North South Charters";
+// Step 1: Create and Initialize Variableslet startupName = "North South Charters";
 let initialCapital = 35000;
 let monthlyRevenue = 6000;
 let monthlyExpenses = 3500;
