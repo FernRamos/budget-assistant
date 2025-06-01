@@ -17,6 +17,6 @@ console.log("Profitability Status: " + (isProfitable ? "True" : "False"));
 
 // ✅ Step 3B: Also Output to Web Page
 document.body.innerHTML += `<h2>${startupName}</h2>`;
-document.body.innerHTML += `<p><strong>Net Monthly Cash Flow: $${netCashFlow}</p>`;
-document.body.innerHTML += `<p><strong>Current Balance: $${currentBalance}</p>`;
-document.body.innerHTML += `<p><strong>Profitability Status: ${isProfitable ? "True" : "False"}</p>`;
+document.body.innerHTML += `<p><strong>Net Monthly Cash Flow:</strong> $${netCashFlow}</p>`;
+document.body.innerHTML += `<p><strong>Current Balance:</strong> $${currentBalance}</p>`;
+document.body.innerHTML += `<p><strong>Profitability Status:</strong> ${isProfitable ? "True" : "False"}</p>`;
